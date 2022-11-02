@@ -1,26 +1,29 @@
 // 正金字塔打印     核心算法 j <= i
-var num = prompt('需要打印多少列');   
-var str = '';
-for (var i = 1; i <= num; i++) {
-    for (var j = 1; j <= i; j++) {
-        str = str + '❤';
-    }
-    str = str + '\n';
-}
-console.log(str);
+
+
+// var num = prompt('需要打印多少列');   
+// var str = '';
+// for (var i = 1; i <= num; i++) {
+//     for (var j = 1; j <= i; j++) {
+//         str = str + '❤';
+//     }
+//     str = str + '\n';
+// }
+// console.log(str);
 
 
 
 // 倒金字塔打印     核心算法 j = i
-var num = prompt('需要打印多少列');   
-var str = '';
-for (var i = 1; i <= num; i++) {
-    for (var j = i; j <= num; j++) {
-        str = str + '❤';
-    }
-    str = str + '\n';
-}
-console.log(str);
+
+// var num = prompt('需要打印多少列');   
+// var str = '';
+// for (var i = 1; i <= num; i++) {
+//     for (var j = i; j <= num; j++) {
+//         str = str + '❤';
+//     }
+//     str = str + '\n';
+// }
+// console.log(str);
 
 
 
