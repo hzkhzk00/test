@@ -12,7 +12,6 @@
 // console.log(str);
 
 
-
 // 倒金字塔打印     核心算法 j = i
 
 // var num = prompt('需要打印多少列');   
