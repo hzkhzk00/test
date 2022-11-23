@@ -82,4 +82,21 @@
 // }
 
 
+// 封装的倒计时函数
 
+
+// function countDown(time) {
+//    var nowTime = Date.now();   //返回当前时间戳
+//    var inpuTime = +new Date(time); //返回用户输入的时间戳
+//    var times = (inpuTime - nowTime) / 1000;    //times是剩余时间总的秒数
+//    var d = parseInt(times / 60 / 60 / 24); //天
+//    d = d < 10 ? '0' + d : d;
+//    var h = parseInt(times / 60 / 60 % 24);  //时
+//    h = h < 10 ? '0' + h : h;
+//    var m = parseInt(times / 60 % 60);  //分
+//    m = m < 10 ? '0' + m : m;
+//    var s = parseInt(times % 60);   //秒
+//    s = s < 10 ? '0' + s : s;
+//    return d + '天' + h + '时' + m + '分' + s + '秒';
+// }
+// console.log(countDown('2023-10-11 18:00:00'));

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #map {
+            height: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    </style>
+
+<script>
+    function initMap() {
+        var mapOptions = {};
+        // 设置地图中心点坐标
+        mapOptions.center = {lat: 48.856613, lng: 2.352222};
+        // 设置地图初始化缩放级别
+        mapOptions.zoom = 8;
+        // 设置地图语言
+        mapOptions.language='ENG';
+        // 设置地图加载时使用的瓦片类型，支持vector（矢量）或raster（栅格）
+        mapOptions.sourceType = 'raster';
+        // 设置AT
+        mapOptions.authOptions = {accessToken: token}
+        // 创建地图对象
+        var map = new HWMapJsSDK.HWMap(document.getElementById('map'), mapOptions);
+    }
+</script>
+
+</head>
+<body>
+<div id="map"></div>
+    
+
+    <script src="https://mapapi.cloud.huawei.com/mapjs/v1/mapkit.js"></script>
+</body>
+</html>
