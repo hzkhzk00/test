@@ -1,7 +1,7 @@
 // 正金字塔打印     核心算法 j <= i
 
 
-// var num = prompt('需要打印多少列');   
+// var num = prompt('需要打印多少列');
 // var str = '';
 // for (var i = 1; i <= num; i++) {
 //     for (var j = 1; j <= i; j++) {
@@ -14,7 +14,7 @@
 
 // 倒金字塔打印     核心算法 j = i
 
-// var num = prompt('需要打印多少列');   
+// var num = prompt('需要打印多少列');
 // var str = '';
 // for (var i = 1; i <= num; i++) {
 //     for (var j = i; j <= num; j++) {
@@ -66,7 +66,7 @@
 
 
 
-   // 求从1开始第35个能被7和3整除的整数是多少
+// 求从1开始第35个能被7和3整除的整数是多少
 
 // var i = 1;
 // var jishu = 0;
@@ -100,3 +100,13 @@
 //    return d + '天' + h + '时' + m + '分' + s + '秒';
 // }
 // console.log(countDown('2023-10-11 18:00:00'));
+
+
+// 数组排序（冒泡排序）
+// var arr = [12, 34, 2, 6, 44]
+// arr.sort(function (a, b) {
+//    return a - b;  // a-b升序的排序序列 b-a降序
+// });
+// console.log(arr);
+
+
