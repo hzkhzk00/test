@@ -110,3 +110,12 @@
 // console.log(arr);
 
 
+// 点击一个按钮，弹出对话框
+// 1. 事件是有三部分组成    事件源  事件类型    事件处理程序
+// （1）事件源 事件触发的对象   谁  按钮
+// var btn = document.getElementById('btn');
+// （2）事件类型    如何触发    什么事件    比如鼠标点击（onclick）还是鼠标经过
+// （3）事件处理程序    通过一个函数赋值的方式 完成
+// btn.onclick = function () {
+//     alert('');
+// }
